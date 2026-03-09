@@ -70,10 +70,3 @@ pip install -r requirements.txt
 Run the dashboard:
 
 streamlit run dashboard/dashboard.py
-
-------------------------------------------------------------------------
-
-## Author
-
-This project was created as part of a Data Analysis with Python course
-submission.
