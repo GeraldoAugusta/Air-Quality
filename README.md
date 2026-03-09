@@ -1,4 +1,4 @@
-# Air Quality Analysis Dashboard ✨
+# Air Quality Analysis Dashboard
 
 ## Setup Environment - Anaconda
 
