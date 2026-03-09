@@ -13,7 +13,7 @@ like temperature, pressure, wind direction, and rainfall.
 The objective of the analysis is to understand patterns of air pollution
 over time and compare air quality levels across monitoring stations.
 
-------------------------------------------------------------------------
+---
 
 ## Business Questions
 
@@ -21,33 +21,34 @@ over time and compare air quality levels across monitoring stations.
 2.  Which monitoring stations record the highest and lowest air
     pollution levels?
 
-------------------------------------------------------------------------
+---
 
-## Project Structure
+## Data Source
 
-submission │ ├── dashboard │ ├── main_data.csv │ └── dashboard.py │ ├──
-data │ ├── data_1.csv │ └── data_2.csv │ ├── notebook.ipynb ├──
-README.md ├── requirements.txt └── url.txt
+Dataset used in this project:
 
-------------------------------------------------------------------------
+Air Quality Data Set
+https://drive.google.com/file/d/1RhU3gJlkteaAQfyn9XOVAz7a5o1-etgr/view?usp=share_link
+
+---
 
 ## Data Analysis Steps
 
 1.  **Data Gathering**
-    -   Combining multiple CSV files into one main dataset.
+    - Combining multiple CSV files into one main dataset.
 2.  **Data Assessing**
-    -   Checking data types, missing values, and duplicates.
+    - Checking data types, missing values, and duplicates.
 3.  **Data Cleaning**
-    -   Handling missing values and creating a datetime column for
-        time-based analysis.
+    - Handling missing values and creating a datetime column for
+      time-based analysis.
 4.  **Exploratory Data Analysis**
-    -   Exploring relationships between air pollutants and identifying
-        patterns.
+    - Exploring relationships between air pollutants and identifying
+      patterns.
 5.  **Data Visualization**
-    -   Creating visualizations to show pollution trends and station
-        comparisons.
+    - Creating visualizations to show pollution trends and station
+      comparisons.
 
-------------------------------------------------------------------------
+---
 
 ## Dashboard
 
@@ -59,14 +60,32 @@ Selecting time ranges - Viewing pollution trends over time - Comparing
 air quality between stations - Viewing summary metrics such as average
 PM2.5 and PM10
 
-------------------------------------------------------------------------
+---
 
-## How to Run the Dashboard
+## Dashboard Features
 
-Install dependencies:
+The Streamlit dashboard provides interactive features including:
 
-pip install -r requirements.txt
+- Air quality trend visualization over time
+- Station-based air pollution comparison
+- Pollutant distribution overview
+- Air quality category distribution based on PM2.5
+- Seasonal PM2.5 comparison
 
-Run the dashboard:
+Users can filter the data by:
 
-streamlit run dashboard/dashboard.py
+- Monitoring station
+- Date range
+- Time aggregation level (daily, monthly, yearly)
+
+---
+
+## Running the Live Dashboard
+
+https://geraldairquality.streamlit.app/
+
+---
+
+## Author
+
+This project was created as part of a Data Analysis Fundamental course submission.
